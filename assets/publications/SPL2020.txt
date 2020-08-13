@@ -1,0 +1,7 @@
+@article{liu20120SPL,
+  title={Modeling Prosodic Phrasing with Multi-Task Learning in Tacotron-based TTS},
+  author={R. {Liu} and B. {Sisman} and F. {Bao} and G. {Gao} and H. {Li}},
+  journal={IEEE Signal Processing Letters},
+  volume={2020},
+  year={2020}
+}
