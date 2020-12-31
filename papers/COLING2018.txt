@@ -1,0 +1,15 @@
+@inproceedings{liu-etal-2018-lstm,
+    title = "A {LSTM} Approach with Sub-Word Embeddings for {M}ongolian Phrase Break Prediction",
+    author = "Liu, Rui  and
+      Bao, Feilong  and
+      Gao, Guanglai  and
+      Zhang, Hui  and
+      Wang, Yonghe",
+    booktitle = "Proceedings of the 27th International Conference on Computational Linguistics",
+    month = aug,
+    year = "2018",
+    address = "Santa Fe, New Mexico, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/C18-1207",
+    pages = "2448--2455",
+}

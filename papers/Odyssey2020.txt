@@ -1,0 +1,9 @@
+@inproceedings{Liu2020,
+  author={Rui Liu and Berrak Sisman and Feilong Bao and Guanglai Gao and Haizhou Li},
+  title={{WaveTTS: Tacotron-based TTS with Joint Time-Frequency Domain Loss}},
+  year=2020,
+  booktitle={Proc. Odyssey 2020 The Speaker and Language Recognition Workshop},
+  pages={245--251},
+  doi={10.21437/Odyssey.2020-35},
+  url={http://dx.doi.org/10.21437/Odyssey.2020-35}
+}

@@ -1,0 +1,9 @@
+@INPROCEEDINGS{ICASSP2020liu, 
+author={R. {Liu} and B. {Sisman} and J. {Li} and F. {Bao} and G. {Gao} and H. {Li}}, 
+booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+title={Teacher-Student Training For Robust Tacotron-Based TTS}, 
+year={2020}, 
+volume={}, 
+number={}, 
+pages={6274-6278},
+}

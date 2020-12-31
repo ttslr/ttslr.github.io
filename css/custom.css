@@ -1,0 +1,194 @@
+body{
+	font-size: 16px;
+
+}
+.page-titile-wraper{
+  background-image: url("../assets/texture.jpg");
+  background-repeat: repeat;
+}
+
+.page-titile-wraper p.lead{
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.side-bar{
+  margin-top: 40px;
+}
+
+.side-bar > .panel-body{
+  padding: 10px !important;
+}
+
+.side-bar > .panel-body > h3{
+  margin-top: 10px !important;
+}
+
+.side-bar p.lead {
+  margin-bottom: 5px;
+}
+
+.panel-sub-head{
+  margin-top: 15px;
+}
+
+
+a{
+  color:#1B58B8 !important ;
+  text-decoration: none;
+}
+
+.aboutme-wraper{
+ padding-bottom: 20px;
+}
+
+.aboutme-wraper p{
+	font-size: 18px;
+  font-weight: 200 !important;
+}
+
+.custom_navbar{
+  background-image: url("../assets/texture.jpg");
+  background-repeat: repeat;
+}
+
+
+.custom-navbar-brand{
+  font-size: 25px;
+  font-weight: 400 !important;
+
+}
+
+h1, h2,h3{
+	font-weight: 400 !important;
+}
+
+.my-label {
+  background-color: #1B58B8;
+}
+
+.color_wrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 10px;
+  background-color: #1B58B8;
+  clear: both;
+}
+
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
+}
+
+.navbar-nav,
+.navbar-nav > li > a
+{
+	background-color: #1B58B8 !important;
+
+}
+
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+	background-color: #80233c !important;
+}
+
+.navbar-nav li a{
+	color:white !important;
+}
+
+.btn-primary{
+
+  background-color: transparent !important;
+  border-color: #80233c;
+}
+
+a:hover.btn-primary , 
+a:focus.btn-primary {
+	  color: #fff !important;
+background-color: #1B58B8 !important;
+border-color: #80233c;
+}
+
+/*======================*/
+/* Sticky Footer    */
+/*======================*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+@media (max-width: 999px) {  
+	a.custom-navbar-brand{
+		font-size: 16pt; padding-right: 0;  
+	} 
+	.bs-docs-nav .navbar-toggle .icon-bar {
+  		background-color: #1B58B8;
+	}
+  .bs-docs-nav .navbar-header .navbar-toggle {
+    border-color: #1B58B8;
+  }
+  .navbar-nav {
+
+  margin-bottom: 0px;
+
+  }
+
+}
+
+.sub-header{
+  margin-top: 0px;
+}
+
+
+ol { padding-left:20px; }
+.paper-list li{ margin-bottom:10px; }
+
+
+@media (max-width: 400px) { 
+	a.custom-navbar-brand{
+		width: 250px;
+		padding-top: 5px;
+    font-size: 16pt;
+	} 
+
+	.footer .container .text-muted {
+  		margin: 10px 0;
+  		font-size: 12px;
+	}
+}

@@ -1,0 +1,8 @@
+@inproceedings{liu2016mongolian,
+  title={Mongolian prosodic phrase prediction using suffix segmentation},
+  author={Liu, Rui and Bao, Feilong and Gao, Guanglai and Wang, Weihua},
+  booktitle={2016 International Conference on Asian Language Processing (IALP)},
+  pages={250--253},
+  year={2016},
+  organization={IEEE}
+}

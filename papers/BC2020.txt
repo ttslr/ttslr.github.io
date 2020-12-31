@@ -1,0 +1,7 @@
+@inproceedings{zhou2020nus,
+  title={NUS-HLT System for Blizzard Challenge 2020},
+  author={Zhou, Yi and Tian, Xiaohai and Zhou, Xuehao and Zhang, Mingyang and Lee, Grandee and Liu, Rui and Sisman, Berrak and Li, Haizhou and Pillar, ISTD},
+  booktitle={Proc. Joint Workshop for the Blizzard Challenge and Voice Conversion Challenge 2020},
+  pages={44--48},
+  year={2020}
+}

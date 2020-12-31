@@ -1,0 +1,9 @@
+@inproceedings{Liu2018,
+  author={Rui Liu and Feilong Bao and Guanglai Gao and Hui Zhang and Yonghe Wang},
+  title={Improving Mongolian Phrase Break Prediction by Using Syllable and Morphological Embeddings with BiLSTM Model},
+  year=2018,
+  booktitle={Proc. Interspeech 2018},
+  pages={57--61},
+  doi={10.21437/Interspeech.2018-1706},
+  url={http://dx.doi.org/10.21437/Interspeech.2018-1706}
+}

@@ -1,0 +1,7 @@
+@article{liu2019imu,
+  title={The imu speech synthesis entry for blizzard challenge 2019},
+  author={Liu, Rui and Li, Jingdong and Bao, Feilong and Gao, Guanglai},
+  journal={Proceedings of Blizzard Challenge},
+  volume={2019},
+  year={2019}
+}

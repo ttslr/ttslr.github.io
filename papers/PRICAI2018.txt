@@ -1,0 +1,8 @@
+@inproceedings{liu2018phonologically,
+  title={Phonologically aware bilstm model for mongolian phrase break prediction with attention mechanism},
+  author={Liu, Rui and Bao, FeiLong and Gao, Guanglai and Zhang, Hui and Wang, Yonghe},
+  booktitle={Pacific Rim International Conference on Artificial Intelligence},
+  pages={217--231},
+  year={2018},
+  organization={Springer}
+}

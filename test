@@ -1,0 +1,15 @@
+
+        try {
+            // 写入bs中的数据到file中
+            outputStream.write(bs);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+        try {
+            outputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        add a ,line
+       

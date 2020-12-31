@@ -1,0 +1,8 @@
+@inproceedings{liu2017mongolian,
+  title={Mongolian text-to-speech system based on deep neural network},
+  author={Liu, Rui and Bao, Feilong and Gao, Guanglai and Wang, Yonghe},
+  booktitle={National Conference on Man-Machine Speech Communication},
+  pages={99--108},
+  year={2017},
+  organization={Springer}
+}
