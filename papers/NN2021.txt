@@ -1,0 +1,11 @@
+@article{Liu2021FastTalker,
+	title = {FastTalker: A neural text-to-speech architecture with shallow and group autoregression},
+	journal = {Neural Networks},
+	volume = {141},
+	pages = {306-314},
+	year = {2021},
+	issn = {0893-6080},
+	doi = {https://doi.org/10.1016/j.neunet.2021.04.016},
+	url = {https://www.sciencedirect.com/science/article/pii/S0893608021001532},
+	author = {Rui Liu and Berrak Sisman and Yixing Lin and Haizhou Li}
+}
