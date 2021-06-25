@@ -1,0 +1,7 @@
+@inproceedings{Liu2021,
+  author={Liu, Rui and Sisman, Berrak and Li, Haizhou},
+  title={Reinforcement Learning for Emotional Text-to-Speech Synthesis with Improved Emotion Discriminability},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1--5}
+}
