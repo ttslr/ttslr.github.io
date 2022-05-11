@@ -1,0 +1,10 @@
+@ARTICLE{9767637,  
+	author={Liu, Rui and Sisman, Berrak and Gao, Guang lai and Li, Haizhou},  
+	journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},   
+	title={Decoding Knowledge Transfer for Neural Text-to-Speech Training},   
+	year={2022},  
+	volume={},  
+	number={},  
+	pages={1-1},  
+	doi={10.1109/TASLP.2022.3171974}
+}
