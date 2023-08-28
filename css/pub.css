@@ -1,0 +1,249 @@
+@media screen and (min-width: 751px) {
+	
+	.pc_pub{
+		position: relative;
+		min-height: 100vh;
+		width: 80%;
+		max-width: 1400px;
+	}
+	
+	.pub_title{
+		margin-top: 2rem;
+		display: block;
+		width: calc(100% - 1rem);
+		padding-left: 1rem;
+		height: 3rem;
+		line-height: 3rem;
+		font-weight: bold;
+		/* border-left: 6px solid #015293; */
+	}
+	.pub_year{
+		width: calc(100% - 2rem);
+		height: 2.4rem;
+		background-color: #015293;
+		/* opacity: 0.7; */
+		line-height: 2.4rem;
+		font-weight: bold;
+		color: white;
+		padding-left: 2rem;
+		text-align: left;
+		font-size: 1.5rem;
+	}
+	
+	.pub_seg{
+		width: calc(100% - 2rem);
+		height: 1.5rem;
+		background-color: #4c8393;
+		/* opacity: 0.7; */
+		line-height: 1.5rem;
+		font-weight: bold;
+		color: white;
+		font-size: 0.7rem;
+		padding-left: 2rem;
+	}
+	
+	.pub_list{
+		width: calc(100% - 2px);
+		min-height: 1rem;
+		border: 1px solid #015293;
+		margin-bottom: 2rem;
+	}
+	.pub_detail{
+		width: calc(100% - 4rem);
+		padding: 1rem 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid gainsboro;
+	}
+	
+	.paper_image{
+		width: 8rem;
+		height: auto;
+		/* background-color: #015293; */
+	}
+	
+	.paper_image>img{
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	.paper_left{
+		width: calc(87% - 8rem);
+		margin-left: 1rem;
+	}
+	
+	
+	.paper_left .paper_title{
+		font-size: 17px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.paper_left .paper_author{
+		padding-top: 5px;
+		font-size: 17px;
+		margin-top: 5px;
+	}
+	
+	.paper_left .paper_link{
+		width: 100%;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 16px;
+	}
+	
+	.paper_left .paper_link a{
+		margin-right: 0.5rem;
+		transition: all 0.5s;
+		color: black;
+		/* font-weight: bold; */
+	}
+	
+	.paper_left .paper_link a:hover{
+		cursor: pointer;
+		color: #015293;
+		/* font-weight: bolder; */
+		transition: all 0.3s;
+	}
+	
+	.paper_right{
+		height: auto;
+		width: 12%;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.paper_right i{
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	
+	
+}
+
+@media screen and (max-width: 751px) {
+	
+	.pc_pub{
+		position: relative;
+		min-height: 30vh;
+		width: 90%;
+		max-width: 1400px;
+	}
+	
+	.pub_title{
+		/* margin-top: 2rem; */
+		display: block;
+		width: calc(100% - 1rem);
+		padding-left: 1rem;
+		height: 3rem;
+		line-height: 3rem;
+		font-weight: bold;
+		/* border-left: 6px solid #015293; */
+	}
+	.pub_year{
+		width: calc(100% - 2rem);
+		height: 2rem;
+		background-color: #015293;
+		/* opacity: 0.7; */
+		line-height: 2rem;
+		font-weight: bold;
+		color: white;
+		padding:0 1rem;
+	}
+	
+	.pub_seg{
+		width: calc(100% - 2rem);
+		height: 1.5rem;
+		background-color: #4c8393;
+		/* opacity: 0.7; */
+		line-height: 1.5rem;
+		font-weight: bold;
+		color: white;
+		font-size: 0.7rem;
+		padding:0 1rem;
+	}
+	.pub_list{
+		width: calc(100% - 2px);
+		min-height: 1rem;
+		border: 1px solid #015293;
+		margin-bottom: 2rem;
+	}
+	.pub_detail{
+		width: calc(100% - 1.5rem);
+		padding: 1rem 1rem;
+		display: flex;
+		/* align-items: center; */
+		/* justify-content: center; */
+		border-bottom: 1px solid gainsboro;
+	}
+	
+	.paper_image{
+		width: 0rem;
+		height: auto;
+	}
+	
+	.paper_image>img{
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	.paper_left{
+		width: 18rem;
+		margin-left: 0.3rem;
+	}
+	
+	
+	.paper_left .paper_title{
+		font-size: 8px;
+		font-weight: bold;
+		text-align: left;
+	}
+	
+	.paper_left .paper_author{
+		padding-top: 5px;
+		font-size: 8px;
+		margin-top: 5px;
+	}
+	
+	.paper_left .paper_link{
+		width: 100%;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 8px;
+	}
+	
+	.paper_left .paper_link a{
+		margin-right: 0.5rem;
+		transition: all 0.5s;
+		color: black;
+		font-size: 8px;
+		/* font-weight: bold; */
+	}
+	
+	.paper_left .paper_link a:hover{
+		cursor: pointer;
+		color: #015293;
+		/* font-weight: bolder; */
+		transition: all 0.3s;
+	}
+	
+	.paper_right{
+		/* width: calc(20%); */
+		width: 3.5rem;
+		word-wrap: break-word; /* 在单词内换行，超出宽度时换行 */
+		text-align: center;
+		font-size: 8px;
+		font-weight: bold;
+	}
+	
+	.paper_right i{
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	
+	
+}

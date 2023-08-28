@@ -1,0 +1,94 @@
+@media screen and (min-width: 751px) {
+
+	.pc_footer{
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+		width: 100%;
+		min-height: 6rem;
+		background-color: #F5F6FA;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.element{
+		min-width: 3rem;
+		/* background-color: wheat; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0rem 2rem;
+	}
+	.element>i{
+		display: block;
+		width: 2rem;
+		height: 2rem;
+		line-height: 2rem;
+		text-align: center;
+		background-color: #015293;
+		border-radius: 50%;
+		color: white;
+	}
+	.element>span{
+		display: block;
+		min-height: 2rem;
+		line-height: 1.5rem;
+		font-size: 15px;
+		font-weight: lighter;
+		margin-top: 0.5rem;
+		text-align: center;
+	}
+	
+}
+
+
+@media screen and (max-width: 751px) {
+
+	.pc_footer{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		width: 100%;
+		min-height: 2rem;
+		background-color: #F5F6FA;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.element{
+		min-width: 1rem;
+		/* background-color: wheat; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0rem 1rem;
+		width: 5.5rem;
+	}
+	.element>i{
+		display: block;
+		width: 2rem;
+		height: 2rem;
+		line-height: 2rem;
+		text-align: center;
+		background-color: #015293;
+		border-radius: 50%;
+		color: white;
+	}
+	.element>span{
+		display: block;
+		height: 2rem;
+		/* min-width: 1rem; */
+		line-height: 1rem;
+		font-size: 8px;
+		font-weight: lighter;
+		margin-top: 0.5rem;
+		overflow: hidden; /* 隐藏超出部分的内容 */
+		text-align: center;
+	}
+	
+	.element>span:hover{
+		 overflow: auto; /* 鼠标经过时显示内容，并启用滚动条 */
+	}
+}

@@ -1,0 +1,149 @@
+@media screen and (min-width: 751px) {
+	.pc_admissions>img{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+	
+	.pc_admissions{
+		position: relative;
+		min-height: 100vh;
+		width: 100%;
+		max-width: 1400px;
+		padding-bottom: 1rem;
+		/* background-color: antiquewhite; */
+	}
+	
+	.admissions_title{
+		margin-top: 2rem;
+		display: block;
+		width: calc(100% - 1rem);
+		padding-left: 1rem;
+		height: 3rem;
+		line-height: 3rem;
+		font-weight: bold;
+		/* border-left: 6px solid #015293; */
+	}
+	
+	.admissions_text{
+		width: calc(100% - 2px);
+		min-height: 1rem;
+		/* border: 1px solid #015293; */
+		margin-bottom: 2rem;
+		position: relative;
+		font-family: "Roboto", sans-serif;
+	}
+	
+	.admissions_text>h5{
+		padding: 1rem 0;
+		font-size: 1rem;
+	}
+	
+	.admissions_text>p{
+		padding: 1rem 0;
+		line-height: 0.5;
+		
+	}
+	
+	.admissions_text p{
+		width: calc(100% - 4rem);
+		text-align: justify;
+		padding: 0.5rem 2rem;
+		line-height: 2em;
+	}
+	
+	.admissions_detail{
+		margin-top: 10rem;
+		width: 10rem;
+		height: 2rem;
+		/* background-color: antiquewhite; */
+		margin: 0 auto;
+		border: 1px solid gainsboro;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 2rem;
+		color: black;
+	}
+	
+	.admissions_detail:hover{
+		background-color: #015293;
+		cursor: pointer;
+		transition: 0.3s all;
+		color: white;
+	}
+	
+	
+	
+
+}
+
+
+
+@media screen and (max-width: 751px) {
+	.pc_admissions>img{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 1rem;
+	}
+	
+	.pc_admissions{
+		position: relative;
+		min-height: 100vh;
+		width: 100%;
+		padding-bottom: 1rem;
+		/* background-color: antiquewhite; */
+	}
+	
+	.admissions_title{
+		margin-top: 2rem;
+		display: block;
+		width: calc(100% - 1rem);
+		padding-left: 1rem;
+		height: 3rem;
+		line-height: 3rem;
+		font-weight: bold;
+		/* border-left: 6px solid #015293; */
+	}
+	
+	.admissions_text{
+		width: calc(100% - 2px);
+		min-height: 1rem;
+		/* border: 1px solid #015293; */
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	
+	.admissions_text p{
+		width: calc(100% - 4rem);
+		text-align: justify;
+		padding: 0.5rem 2rem;
+		line-height: 2em;
+		font-size: 0.7rem;
+	}
+	
+	.admissions_detail{
+		margin-top: 10rem;
+		width: 10rem;
+		height: 2rem;
+		/* background-color: antiquewhite; */
+		margin: 0 auto;
+		border: 1px solid gainsboro;
+		border-radius: 5px;
+		text-align: center;
+		line-height: 2rem;
+		color: black;
+	}
+	
+	.admissions_detail:hover{
+		background-color: #015293;
+		cursor: pointer;
+		transition: 0.3s all;
+		color: white;
+	}
+	
+	
+	
+
+}

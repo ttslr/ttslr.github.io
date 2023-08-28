@@ -1,0 +1,291 @@
+@media screen and (min-width: 751px) {
+	.activity-title {
+		/* width: calc(66%); */
+		display: block;
+		width: calc(100% - 2rem);
+		height: 2rem;
+		background-color: #015293;
+		/* opacity: 0.7; */
+		line-height: 2rem;
+		font-weight: bold;
+		color: white;
+		padding:0 1rem;
+		margin: 1rem 0;
+		border-radius: 7px;
+	}
+	
+	.activity-body {
+		width: calc(66%);
+		min-height: calc(77vh);
+	}
+	
+	
+	/* Add your CSS styles here */
+	.activity-list {
+	  width: calc(95%);
+	  margin: 0 auto;
+	  list-style-type: none;
+	  padding: 0;
+	}
+	
+	.activity-item {
+	  margin-bottom: 10px;
+	  cursor: pointer;
+	}
+	
+	
+	.activity-item-show {
+		display: flex;
+		transition: height 1s ease-in-out;
+		justify-content: space-between;
+		height: 160px;
+		overflow: hidden;
+	}
+	
+	.activity-item-show-text {
+		width: 78%;
+		font-family: Arial, sans-serif;
+		font-size: 1rem;
+		/* font-weight: bold; */
+		text-indent: 2em;
+		color: #333;
+		height: 160px;
+		overflow: hidden;
+		padding-top: 20px;
+		opacity: 1;
+		transition: opacity 0.5s ease-out;
+		font-family: "Roboto", sans-serif;
+	}
+	
+	.activity-item-show-img {
+		width: 18%;
+		height: 140px;
+		opacity: 1;
+		transition: opacity 0.5s ease-out;
+	}
+	
+	.activity-item-show-img>img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+	}
+	
+	.activity-interface {
+	  display: none;
+	  margin-top: 10px;
+	  padding: 10px;
+	  background-color: #f2f2f2;
+	  /* border: 1px solid #ccc; */
+	  border-radius: 20px;
+	}
+	
+	.container {
+	  width: calc(100% - 6rem);
+	  max-width: 1500px;
+	  margin: 0px auto;
+	  background-color: #f9f9f9;
+	  border-radius: 50px;
+	  padding: 50px;
+	  /* border-bottom: 2px salmon solid; */
+	}
+	.title {
+      display: flex;
+	  justify-content: space-between;
+	  font-size: 1.5rem;
+	  padding: 10px 0;
+	  font-weight: bold;
+	  margin-bottom: 10px;
+	  /* color: #009999; */
+	}
+	
+	.title-right {
+		font-size: 1rem;
+	}
+	
+	.time {
+	  font-size: 1rem;
+	  color: #abacac;
+	  margin-bottom: 20px;
+	}
+	.description {
+	  color: #737373;
+	  margin: 40px 0;
+	  text-indent: 2em; /* 设置首行缩进为2个字母的宽度 */
+	  font-size: 1rem;
+	  line-height: 1.7; /* 使用相对单位，例如倍数或百分比 */
+	  
+	}
+	.grid {
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  grid-gap: 20px;
+	}
+	.photo-wrapper {
+	  width: 100%;
+	  height: 0;
+	  padding-bottom: 100%;
+	  box-shadow: 0px 2px 20px 2px #cfcfcf;
+	  position: relative;
+	  border-radius: 30px;
+	}
+	.photo-wrapper img {
+		border-radius: 30px;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	}
+	
+}
+
+
+
+
+@media screen and (max-width: 751px) {
+	
+	.activity-title {
+		/* width: calc(66%); */
+		display: block;
+		width: calc(100% - 2rem);
+		height: 1.5rem;
+		background-color: #015293;
+		/* opacity: 0.7; */
+		line-height: 1.5rem;
+		font-weight: bold;
+		color: white;
+		padding:0 1rem;
+		margin: 1rem 0;
+		border-radius: 7px;
+		font-size: 0.7rem;
+	}
+	
+	.activity-body {
+		width: calc(90%);
+		min-height: 75vh;
+	}
+	
+	
+	/* Add your CSS styles here */
+	.activity-list {
+	  width: calc(95%);
+	  margin: 0 auto;
+	  list-style-type: none;
+	  padding: 0;
+	}
+	
+	.activity-item {
+	  margin-bottom: 10px;
+	  cursor: pointer;
+	}
+	
+	
+	.activity-item-show {
+		display: flex;
+		transition: height 1s ease-in-out;
+		justify-content: space-between;
+		height: 95px;
+		overflow: hidden;
+	}
+	
+	.activity-item-show-text {
+		width: 66%;
+		font-family: Arial, sans-serif;
+		font-size: 0.7rem;
+		/* font-weight: bold; */
+		text-indent: 2em;
+		color: #333;
+		height: 95px;
+		opacity: 1;
+		overflow: hidden; /* 添加 overflow 属性 */
+		transition: opacity 0.5s ease-out;
+	}
+	
+	.activity-item-show-img {
+		width: 30%;
+		height: 100px;
+		opacity: 1;
+		transition: opacity 0.5s ease-out;
+	}
+	
+	.activity-item-show-img>img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+	}
+	
+	.activity-interface {
+	  display: none;
+	  /* margin-top: 10px; */
+	  padding: 5px;
+	  background-color: #f2f2f2;
+	  /* border: 1px solid #ccc; */
+	  border-radius: 20px;
+	}
+	
+	.container {
+	  width: calc(100% - 1.5rem);
+	  max-width: 1400px;
+	  margin: 0px auto;
+	  margin-top: 10px;
+	  background-color: #f9f9f9;
+	  border-radius: 20px;
+	  padding: 10px;
+	  /* border-bottom: 2px salmon solid; */
+	}
+	.title {
+	  display: flex;
+	  justify-content: space-between;
+	  font-size: 1rem;
+	  padding: 10px 0;
+	  font-weight: bold;
+	  margin-bottom: 10px;
+	  /* color: #009999; */
+	}
+	
+	.title-right {
+		font-size: 0.7rem;
+	}
+	.time {
+	  font-size: 0.5rem;
+	  color: #abacac;
+	  margin-bottom: 10px;
+	}
+	.description {
+	  color: #737373;
+	  font-size: 0.7rem;
+	  line-height: 1.8; /* 使用相对单位，例如倍数或百分比 */
+	  margin-bottom: 20px;
+	  text-indent: 2em; /* 设置首行缩进为2个字母的宽度 */
+	}
+	.grid {
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  grid-gap: 7px;
+	}
+	
+	
+	.photo-wrapper {
+	  width: 100%;
+	  height: 0;
+	  padding-bottom: 100%;
+	  box-shadow: 0px 2px 20px 2px #cfcfcf;
+	  position: relative;
+	  border-radius: 30px;
+	}
+
+
+	.photo-wrapper img {
+	  border-radius: 10px;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	}
+	
+}
