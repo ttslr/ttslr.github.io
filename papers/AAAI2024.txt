@@ -1,0 +1,13 @@
+@article{Liu_Hu_Ren_Yin_Li_2024, 
+title={Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling}, 
+volume={38}, 
+url={https://ojs.aaai.org/index.php/AAAI/article/view/29833}, 
+DOI={10.1609/aaai.v38i17.29833}, 
+abstractNote={Conversational Speech Synthesis (CSS) aims to accurately express an utterance with the appropriate prosody and emotional inflection within a conversational setting. While recognising the significance of CSS task, the prior studies have not thoroughly investigated the emotional expressiveness problems due to the scarcity of emotional conversational datasets and the difficulty of stateful emotion modeling. In this paper, we propose a novel emotional CSS model, termed ECSS, that includes two main components: 1) to enhance emotion understanding, we introduce a heterogeneous graph-based emotional context modeling mechanism, which takes the multi-source dialogue history as input to model the dialogue context and learn the emotion cues from the context; 2) to achieve emotion rendering, we employ a contrastive learning-based emotion renderer module to infer the accurate emotion style for the target utterance. To address the issue of data scarcity, we meticulously create emotional labels in terms of category and intensity, and annotate additional emotional information on the existing conversational dataset (DailyTalk). Both objective and subjective evaluations suggest that our model outperforms the baseline models in understanding and rendering emotions. These evaluations also underscore the importance of comprehensive emotional annotations. Code and audio samples can be found at: https://github.com/walker-hyf/ECSS.}, 
+number={17}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Liu, Rui and Hu, Yifan and Ren, Yi and Yin, Xiang and Li, Haizhou}, 
+year={2024}, 
+month={Mar.}, 
+pages={18698-18706} 
+}
