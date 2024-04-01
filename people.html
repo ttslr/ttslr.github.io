@@ -11,9 +11,22 @@
 		<link type="text/css" href="./css/header.css" rel="stylesheet">
 		<link type="text/css" href="./css/people.css" rel="stylesheet">
 		<link type="text/css" href="./css/fooder.css" rel="stylesheet">
+		<link rel="canonical" href="https://ttslr.github.io/">
 		<script type='text/javascript' src="./js/jquery-3.3.1.min.js"></script>
-		
-		
+		<link rel="stylesheet" href="./css/main_rl.css">
+		<meta http-equiv="cleartype" content="on">
+		<link rel="stylesheet" href="./css/academicons_rl.css" />
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); 
+		</script>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); 
+		</script>
+		<script>
+			document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async>
+		</script>
 	</head>
 	<body>
 		<header class="pc_header">
@@ -49,196 +62,960 @@
 			
 			
 		</header>
+		
 		<main class="pc_people">
 			<img src="img/4.jpg"/>
-			<div class="block">
-				<span>Principal Investigator</span>
-				<div class="people_list">
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/RuiLiu_1.jpg"/>
-						</div>
-						<span>Rui Liu <br/> (刘瑞)</span><br/> <br/>
-						<span><underline><a href="./index_ruiliu.html">Personal Homepage</a></underline></span>
-						<!-- <span>Rui Liu is a professor in Department of Computer Science at Inner Mongolia University of China, who is leading the S2LAB.</span> -->
+			
+			<!--[if lt IE 9]><div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+			<div class="masthead">
+				<div class="masthead__inner-wrap">
+					<div class="masthead__menu">
+						<nav id="site-nav" class="greedy-nav">
+							<button>
+								<div class="navicon"></div>
+							</button>
+							<ul class="visible-links">
+								<li class="masthead__menu-item">
+									<!-- <a href="https://ttslr.github.io/index_ruiliu.html" onclick="myFunction(1)">Rui Liu 刘瑞</a> -->
+									<a href="#" onclick="showModule(1)">Rui Liu (刘瑞)</a>
+								</li>
+								<li class="masthead__menu-item">
+									<!-- <a href="https://ttslr.github.io/" onclick="myFunction(1)">S2LAB 团队网页</a> -->
+									<a href="#" onclick="showModule(2)">S2LAB Team</a>
+								</li>
+								<li class="masthead__menu-item">
+									<!-- <a href="https://ttslr.github.io/" onclick="myFunction(2)">合作机构</a> -->
+									<a href="#" onclick="showModule(3)">Partner Organization</a>
+								</li>
+							</ul>
+							<ul class="hidden-links hidden"></ul>
+						</nav>
 					</div>
 				</div>
 			</div>
-			
-			<!-- 博士 -->
-			<div class="block">
-				<span>PhD Student</span>
-				<span>19级</span>
-				<div class="people_list">
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/nmh.jpg"/>
-						</div>
-						<span>Muhan Na <br/>(娜木汗) '19<br/>[蒙古文自然语言处理]</span>
-						
-					</div>
-				</div>
-				<span>22级</span>
-				<div class="people_list">
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/zhl.jpg"/>
-						</div>
-						<span>Haolin Zuo <br/> (左昊麟) '22<br/>[多模态情感识别]</span> <br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 英国帝国理工、中科院自动化所、启元实验室 联合指导)</b></span>
-					</div>
-				</div>
-				<span>23级</span>
-				<div class="people_list">
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/hyf.jpg"/>
-						</div>
-						<span>Yifan Hu <br/> (胡一帆) '23<br/>[对话语音合成]</span><br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 新加坡字节跳动 联合指导)</b></span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/myx.jpg"/>
-						</div>
-						<span>Yuxuan Ma <br/> (麻宇轩) '23<br/>[多模态意图识别]</span>
-					</div>
-				</div>
+			<div class="module" id="module1">
+			    <div id="main" role="main">
+			    	<!-- 左侧信息栏 -->
+			    	<div class="sidebar sticky">
+			    		<div itemscope itemtype="http://schema.org/Person">
+			    			<div class="author__avatar">
+			    				<img src="assets/RuiLiu.jpg" class="author__avatar" alt="Hanlei Zhang">
+			    			</div>
+			    			<div class="author__content">
+			    				<h3 class="author__name">Rui Liu</h3>
+			    
+			    
+			    				<p class="author__bio">Speech Information Processing, Natural Language Processing, and
+			    					Multimodal Human-Computer Dialogue.</p>
+			    				<p class="author__bio">
+			    					<!-- Office: 503 Room, School of Computer science, Inner Mongolia University, China 010021 -->
+			    					Mobile: +86 16647162610
+			    				</p>
+			    			</div>
+			    			<div class="author__urls-wrapper">
+			    				<button class="btn btn--inverse">Follow</button>
+			    				<ul class="author__urls social-icons">
+			    					<li>
+			    						<i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+			    						Inner Mongolia University, China
+			    					</li>
+			    					<li>
+			    						<a href="mailto:liurui_imu@163.com">
+			    							<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+			    							Email
+			    						</a>
+			    					</li>
+			    					<!-- <li>
+			                            <a href="xxx">
+			                                <i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>
+			                                ResearchGate
+			                            </a>
+			                        </li> -->
+			    					<li>
+			    						<a href="https://twitter.com/RuiLiu60711141">
+			    							<i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+			    							Twitter
+			    						</a>
+			    					</li>
+			    					<li>
+			    						<a href="https://github.com/ttslr">
+			    							<i class="fab fa-fw fa-github" aria-hidden="true"></i>
+			    							Github
+			    						</a>
+			    					</li>
+			    					<li>
+			    						<a href="https://scholar.google.com.sg/citations?user=B2t0J-IAAAAJ&hl=zh-CN">
+			    							<i class="fas fa-fw fa-graduation-cap"></i>
+			    							Google Scholar
+			    						</a>
+			    					</li>
+			    					<!-- <li>
+			                            <a href="https://orcid.org/xxxxx">
+			                                <i class="ai ai-orcid-square ai-fw"></i>
+			                                ORCID
+			                            </a>
+			                        </li> -->
+			    				</ul>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	<article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+			    		<meta itemprop="headline" content="About me">
+			    		<meta itemprop="description" content="About me">
+			    		<div class="page__inner-wrap">
+			    			<header>
+			    				<h1 class="page__title" itemprop="headline">About me</h1>
+			    			</header>
+			    			<section class="page__content" itemprop="text">
+			    				<p>
+			    					Rui Liu is currently a Professor in National and Local Joint Engineering Research Center of
+			    					Mongolian Intelligent Information Processing, Inner Mongolia University. Rui Liu received
+			    					Ph.D degree from Inner Mongolia University, China in 2020 and Bachelor degree in Taiyuan
+			    					University of Technology, ShanXi, China in 2014. From 2020 to 2022, he worked as a Research
+			    					Fellow at the Department of Electrical and Computer Engineering, National University of
+			    					Singapore, Singapore, working with Prof. <a href="https://www.colips.org/~eleliha/">Haizhou
+			    						Li</a>. He was the recipient of the "Best Paper Award" at the 2021 International
+			    					Conference on Asian Language Processing.
+			    				</p>
+			    				<p>
+			    					He has published more than 20 papers in top-tier NLP/ML/AI conferences and journals,
+			    					including IEEE/ACM-TASLP, Neural Networks, ICASSP, COLING, INTERSPEECH, etc. Dr. Liu serves
+			    					as the reviewer for many major referred journal and conference papers. His research
+			    					interests broadly lie in audio, speech and natural language processing, which include
+			    					expressive Text-to-Speech (TTS), expressive voice conversion, speech emotion recognition,
+			    					prosody structure prediction, grapheme-to-phoneme conversion (G2P), syntax parsing et. al.
+			    				</p>
+			    
+			    				<h2 id="education-and-experience">Education and Experience</h2>
+			    				<ul>
+			    					<li>
+			    						Jan 2022-Present, Professor
+			    						</br><a href="http://www.mglip.com/">National and Local Joint Engineering Research
+			    							Center of Mongolian Intelligent Information Processing</a>, Inner Mongolia
+			    						University, China.
+			    					</li>
+			    					<li>
+			    						Aug 2020-Jan 2022, Research Fellow (Advisor: Prof. <a
+			    							href="https://www.colips.org/~eleliha/">Haizhou Li</a>)
+			    						</br> <a href="https://cde.nus.edu.sg/ece/hlt/">HLT Lab</a>, National University of
+			    						Singapore, Singapore.
+			    					</li>
+			    					<li>
+			    						Aug 2019-Aug 2020, Visiting Ph.D. Student (Advisor: Prof. <a
+			    							href="https://www.colips.org/~eleliha/">Haizhou Li</a>)
+			    						</br> <a href="https://cde.nus.edu.sg/ece/hlt/">HLT Lab</a>, National University of
+			    						Singapore, Singapore.
+			    					</li>
+			    					<li>
+			    						Sep 2014-Aug 2020, Ph.D. Student (Advisor: Prof. <a
+			    							href="https://www.imu.edu.cn/info/1023/2690.htm"> Guanglai Gao</a>)
+			    						</br> Inner Mongolia University, Hohhot, China.
+			    						</br> Research topic: Mongolian Text-to-Speech system <a
+			    							href="http://mtts.mglip.com/">[DEMO]</a>.
+			    					</li>
+			    					<li>
+			    						Sep 2010-June 2014, Undergraduate
+			    						</br> Taiyuan University of Technology, ShanXi, China.
+			    					</li>
+			    
+			    				</ul>
+			    				<h2 id="news">News <img src="img/new-icon.jpeg" width="100" height="50"></h2>
+			    				<ul>
+			    					<li>
+			    						<font color="red"> 2023/05 </font>
+			    						Two papers about Accented Speech Synthesis and Aduio Deepfake Detection have been
+			    						accepted by <font color="#1B58B8">InterSpeech 2023</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2023/05 </font>
+			    						Rui Liu will serve as a <font color="#1B58B8"><a
+			    								href="https://2023.ieeeicassp.org/wp-content/uploads/sites/443/icassp-2023-program_v1.pdf"
+			    								target="_blank">Session Chair</a></font> in the <font color="#1B58B8">ICASSP
+			    							2023</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2023/04 </font>
+			    						Congratulations to Rui Liu for winning the <font color="#1B58B8"><a
+			    								href="https://www.acmturc.com/2023/en/new_star_award.html" target="_blank">2022
+			    								ACM China Rising Star Award</a></font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2023/02 </font>
+			    						One paper about Multimodal Emotion Recognition has been accepted by <font
+			    							color="#1B58B8">ICASSP 2023</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2023/01 </font>
+			    						One paper about Speech Enhancement is accepted for publication in <font color="#1B58B8">
+			    							IEEE/ACM-TASLP</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/11 </font>
+			    						Two papers about Text-to-Speech have been accepted by <font color="#1B58B8">NCMMSC 2022
+			    						</font>.
+			    
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/09 </font>
+			    						One paper about Open-Source Mongolian Text-to-Speech Synthesis Dataset has been accepted
+			    						by <font color="#1B58B8">IALP 2022</font>.
+			    
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/09 </font>
+			    						One paper about neural machine translation has been accepted by <font color="#1B58B8">
+			    							ICONIP 2022</font>.
+			    
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/09 </font>
+			    						Rui Liu's application for <font color="#1B58B8">Young Scientists Fund of the National
+			    							Natural Science Foundation of China (NSFC) </font> was approved.
+			    
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/06 </font>
+			    						Rui Liu was elected as member of Youth Working Committee of <font color="#1B58B8">
+			    							Chinese Association for Artificial Intelligence (CAAI) </font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/06 </font>
+			    						One paper about emotional voice conversion is accepted for publication in <font
+			    							color="#1B58B8">IEEE/ACM-TASLP</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/06 </font>
+			    						One paper about emotion strength assessment has been accepted by <font color="#1B58B8">
+			    							INTERSPEECH 2022</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/04 </font>One journal paper about Robust TTS is accepted for
+			    						publication in <font color="#1B58B8">IEEE/ACM-TASLP</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/02 </font>
+			    						One journal paper about emotional TTS is accepted to be published in <font
+			    							color="#1B58B8">IEEE Internet of Things Journal</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/01 </font>Two papers about Visual TTS and ASR have been accepted
+			    						by <font color="#1B58B8">ICASSP 2022</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2022/01 </font>
+			    						Rui Liu was elected as executive member of CCF Professional Committee of <font
+			    							color="#1B58B8"><a href="https://www.ccf.org.cn/Chapters/TC/TC_Listing/TASDAP/"
+			    								target="_blank">Speech Dialogue and Auditory Processing </a> </font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/12 </font>
+			    						One paper about Real-time and High-fidelity Mongolian TTS is accepted for publication in
+			    						<font color="#1B58B8">Journal of Chinese Information Processing</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/12 </font>
+			    						Our paper about Mongolian emotional speech synthesis was awarded as "<b>
+			    							<font color="red">Best Paper</font>
+			    						</b>" at <font color="#1B58B8"><a href="http://www.ialp2021.org/">IALP 2021</a></font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/11 </font>
+			    						One journal paper about emotional voice conversion is accepted for publication in <font
+			    							color="#1B58B8">Speech Communication</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/10 </font>
+			    						Invited to serve as a reviewer for <font color="#1B58B8">ICASSP 2022</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/06 </font>
+			    						One paper about emotional TTS has been accepted by <font color="#1B58B8">INTERSPEECH
+			    							2021</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/04 </font>
+			    						One journal paper about expressive TTS is accepted for publication in <font
+			    							color="#1B58B8">IEEE/ACM-TASLP</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2021/04 </font>
+			    						One journal paper about fast and high-quality TTS is accepted to be published in <font
+			    							color="#1B58B8">Neural Networks</font>.
+			    					</li>
+			    
+			    					<li>
+			    						<font color="red"> 2021/01 </font>
+			    						Two papers about expressive TTS and emotional voice conversion have been accepted by
+			    						<font color="#1B58B8">ICASSP 2021</font>.
+			    					</li>
+			    					<li>
+			    						<font color="red"> 2020/12 </font>
+			    						One journal paper about expressive Mongolian TTS is accepted for publication in <font
+			    							color="#1B58B8">IEEE/ACM-TASLP</font>.
+			    					</li>
+			    				</ul>
+			    				<h2 id="publication" class="page-header">Selected Publications <a
+			    						href="https://scholar.google.com.sg/citations?user=B2t0J-IAAAAJ&amp;hl=zh-CN"
+			    						target="_blank" rel="external">[Google Scholar]</a></h2>
+			    				(#: equal contribution *: corresponding author)
+			    				<h3>Preprints</h3>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						<b>Controllable Accented Text-to-Speech Synthesis </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">To be submitted for possible journal publication <br></font>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2209.10804"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://speechdemo.github.io/caitts/">[DEMO]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>FCTalker: Fine and Coarse Grained Context Modeling for Expressive Conversational
+			    							Speech Synthesis </b> <br>
+			    						Yifan Hu, <b>Rui Liu <sup>*</sup></b>, Guanglai Gao, Haizhou Li.<br>
+			    						<!-- <font color="#1B58B8">Submitted to ICASSP'2023 <br></font> !-->
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2210.15360"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://walker-hyf.github.io/FCTalker/">[DEMO]</a></font> <a
+			    							href="https://github.com/walker-hyf/FCTalker">[CODE]</a></font>
+			    					</li>
+			    				</ol>
+			    
+			    				<h3>Journal papers</h3>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						<b>Decoupling Speaker-Independent Emotions for Voice Conversion Via Source-Filter
+			    							Networks </b> <br>
+			    						Zhaojie Luo, Shoufeng Lin, <b>Rui Liu <sup>*</sup></b>, Jun Baba, Yuichiro Yoshikawa,
+			    						Ishiguro Hiroshi.<br>
+			    						<font color="#1B58B8">IEEE/ACM Transactions on Audio, Speech, and Language Processing
+			    							(IEEE/ACM-TASLP). 2022 <br></font>
+			    						<font color="red">(Top journal, JCR Q1, IF=4.364)</font><br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9829916"
+			    								target="_blank">[PDF]</a> <a href="https://zhaojiel.github.io/SFEVC/">[DEMO]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>Decoding Knowledge Transfer for Neural Text-to-Speech Training</b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">IEEE/ACM Transactions on Audio, Speech, and Language Processing
+			    							(IEEE/ACM-TASLP). 2022 <br></font>
+			    						<font color="red">(Top journal, JCR Q1, IF=4.364)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9767637"
+			    								target="_blank">[PDF]</a> <a href="https://ttslr.github.io/MT-KD/">[DEMO]</a> <a
+			    								href="./papers/TASLP2022-decoding.txt" target="_blank">[BIB]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Multi-Stage Deep Transfer Learning for EmIoT-enabled Human-Computer Interaction</b>
+			    						<br>
+			    						<b>Rui Liu</b>, Qi Liu, Hongxu Zhu, Hui Cao.<br>
+			    						<font color="#1B58B8">IEEE Internet of Things Journal. 2022 </font><br> </font>
+			    						<font color="red">(Top journal, JCR Q1, IF=10.238)</font><br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9702532"
+			    								target="_blank">[PDF]</a> <a href="https://ttslr.github.io/IOT/">[DEMO]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>MonTTS: A Real-time and High-fidelity Mongolian TTS Model with Complete
+			    							Non-autoregressive Mechanism (in Chinese) </b> <br>
+			    						<b>Rui Liu</b>, Shyin Kang, Jingdong Li, Feilong Bao, Guanglai Gao.<br>
+			    						<font color="#1B58B8">Journal of Chinese Information Processing. 2022 </font><br>
+			    						</font>
+			    						<font color="red">(CCF T1)</font><br>
+			    						<font color="#1B58B8"><a href="http://jcip.cipsc.org.cn/CN/abstract/abstract3357.shtml"
+			    								target="_blank">[PDF]</a> <a href="https://github.com/ttslr/MonTTS">[CODE]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>Emotional Voice Conversion: Theory, Databases and ESD </b> <br>
+			    						Kun Zhou, Berrak Sisman, <b>Rui Liu</b>, Haizhou Li.<br>
+			    						<font color="#1B58B8">Speech Communication. 2021 </font><br> </font>
+			    						<font color="red">(Top journal, CCF-B, IF=2.723)</font><br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2105.14762"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://hltsingapore.github.io/ESD/demo.html">[DEMO]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Expressive TTS Training with Frame and Style Reconstruction Loss </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">IEEE/ACM Transactions on Audio, Speech, and Language Processing
+			    							(IEEE/ACM-TASLP). 2021 <br></font>
+			    						<font color="red">(Top journal, JCR Q1, IF=4.364)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9420276"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://ttslr.github.io/Expressive-TTS-Training-with-Frame-and-Style-Reconstruction-Loss/">[DEMO]</a>
+			    							<a href="./papers/TASLP2021-style.txt" target="_blank">[BIB]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>FastTalker: A Neural Text-to-Speech Architecture with Shallow and Group
+			    							Autoregression </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Yixing Lin, Haizhou Li.<br>
+			    						<font color="#1B58B8">Neural Networks. 2021 </font>
+			    						<br>
+			    						<font color="red">(JCR Q1, IF=9.657)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a
+			    								href="https://www.sciencedirect.com/science/article/pii/S0893608021001532"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://ttslr.github.io/FastTalker/">[DEMO]</a> <a
+			    								href="./papers/NN2021.txt" target="_blank">[BIB]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>Exploiting Morphological and Phonological Features to Improve Prosodic Phrasing for
+			    							Mongolian Speech Synthesis </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Feilong Bao, Jichen Yang, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">IEEE/ACM Transactions on Audio, Speech, and Language Processing
+			    							(IEEE/ACM-TASLP). 2021 <br></font>
+			    						<font color="red">(Top journal, JCR Q1, IF=4.364)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="papers/TASLP2020Mongolian.pdf">[PDF]</a> <a
+			    								href="./papers/TASLP2020Mongolian.txt" target="_blank">[BIB]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Modeling Prosodic Phrasing with Multi-Task Learning in Tacotron-based TTS </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Feilong Bao, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">IEEE Signal Processing Letters. 2020 </font>
+			    						<br>
+			    						<font color="red">(JCR Q1, IF=3.201)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9166626"
+			    								target="_blank">[PDF]</a> <a href="./papers/SPL2020.txt"
+			    								target="_blank">[BIB]</a> <a href="https://ttslr.github.io/SPL2020/">[DEMO]</a>
+			    						</font>
+			    					</li>
+			    				</ol>
+			    
+			    				<h3>Conference papers</h3>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						<b>Exploiting Modality-Invariant Feature for Robust Multimodal Emotion Recognition with
+			    							Missing Modalities </b> <br>
+			    						Haolin Zuo, <b>Rui Liu <sup>*</sup></b>, Jinming Zhao, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">2023 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2023).</font> <br>
+			    						<font color="red">(Top conference, CCF-B)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2210.15359"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://github.com/ZhuoYulang/IF-MMIN">[CODE]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>MnTTS: An Open-Source Mongolian Text-to-Speech Synthesis Dataset and Accompanied
+			    							Baseline </b> <br>
+			    						Yifan Hu <sup>#</sup>, Pengkai Yin <sup>#</sup>, <b>Rui Liu <sup>*</sup></b>, Feilong
+			    						Bao and Guanglai Gao.<br>
+			    						<font color="#1B58B8">2022 International Conference on Asian Language Processing
+			    							(IALP'2022) </font> <br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2209.10848"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://github.com/walker-hyf/MnTTS">[CODE]</a> <a
+			    								href="http://mglip.com/corpus/corpus_detail.html?corpusid=20220819185345">[Application
+			    								Entry]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>A Deep Investigation of RNN and Self-attention for the Cyrillic-Traditional Mongolian
+			    							Bidirectional Conversion </b> <br>
+			    						Muhan Na, <b>Rui Liu <sup>*</sup></b>, Feilong Bao and Guanglai Gao.<br>
+			    						<font color="#1B58B8">29th International Conference on Neural Information Processing
+			    							(ICONIP'2022) </font> <br>
+			    						<font color="red">(CCF-C)</font> <br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2209.11963"
+			    								target="_blank">[PDF]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>Accurate Emotion Strength Assessment for Seen and Unseen Speech Based on Data-Driven
+			    							Deep Learning </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Björn Schuller, Guanglai Gao and Haizhou Li.<br>
+			    						<font color="#1B58B8">23th Annual Conference of the International Speech Communication
+			    							Association (INTERSPEECH'2022) </font> <br>
+			    						<font color="red">(Top conference, CCF-C)</font> <br>
+			    						<font color="#1B58B8"><a
+			    								href="https://www.isca-speech.org/archive/interspeech_2022/liu22i_interspeech.html"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://github.com/ttslr/StrengthNet">[CODE]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Alignment-Learning based single-step decoding for accurate and fast
+			    							non-autoregressive speech recognition</b> <br>
+			    						Yonghe Wang, <b>Rui Liu <sup>*</sup></b>, Feilong Bao, Hui Zhang, Guanglai Gao.<br>
+			    						<font color="#1B58B8">2022 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2022).</font> <br>
+			    						<font color="red">(Top conference, CCF-B)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://ieeexplore.ieee.org/document/9746227"
+			    								target="_blank">[PDF]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>VisualTTS: TTS with Accurate Lip-speech Synchronization for Automatic Voice Over</b>
+			    						<br>
+			    						Junchen Lu, Berrak Sisman, <b>Rui Liu</b>, Mingyang Zhang, Haizhou Li.<br>
+			    						<font color="#1B58B8">2022 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2022).</font> <br>
+			    						<font color="red">(Top conference, CCF-B)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/abs/2110.03342"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://ranacm.github.io/VisualTTS-Samples/">[DEMO]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Mongolian emotional speech synthesis based on transfer learning and emotional
+			    							embedding </b> <br>
+			    						Aihong Huang, Feilong Bao, Guanglai Gao, Yu Shan, <b>Rui Liu <sup>*</sup></b><br>
+			    						<font color="red"><b>(Best Paper Award)</b></font><br>
+			    						<font color="#1B58B8">2021 International Conference on Asian Language Information
+			    							Processing (IALP'2021) </font> <br>
+			    						<font color="#1B58B8"><a href="xx" target="_blank">[PDF]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>Reinforcement Learning for Emotional Text-to-Speech Synthesis with Improved Emotion
+			    							Discriminability </b> <br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Haizhou Li.<br>
+			    						<font color="#1B58B8">22th Annual Conference of the International Speech Communication
+			    							Association (INTERSPEECH'2021) </font> <br>
+			    						<font color="red">(Top conference, CCF-C)</font> <br>
+			    						<font color="#1B58B8"><a
+			    								href="https://www.isca-speech.org/archive/interspeech_2021/liu21p_interspeech.html"
+			    								target="_blank">[PDF]</a> <a href="https://ttslr.github.io/i-ETTS/">[DEMO]</a>
+			    							<a href="./papers/InterSpeech2021.txt" target="_blank">[BIB]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b> GraphSpeech: Syntax-aware Graph Attention Network for Neural Speech Synthesis </b>
+			    						<br>
+			    						<b>Rui Liu</b>, Berrak Sisman, Haizhou Li.<br>
+			    						<font color="#1B58B8">2021 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2021), Oral.</font> <br>
+			    						<font color="red">(Top conference, CCF-B)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/pdf/2010.12423.pdf"
+			    								target="_blank">[PDF]</a> <a
+			    								href="https://ttslr.github.io/GraphSpeech/">[DEMO]</a> <a
+			    								href="./papers/ICASSP2021.txt" target="_blank">[BIB]</a> <a
+			    								href="https://www.bilibili.com/video/BV16U4y1t7cR/">[VIDEO]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Seen and Unseen Emotional Style Transfer for Voice Conversion with a New Emotion
+			    							Speech Dataset </b> <br>
+			    						Kun Zhou, Berrak Sisman, <b>Rui Liu</b>, Haizhou Li.<br>
+			    						<font color="#1B58B8">2021 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2021), Oral.</font> <br>
+			    						<font color="red">(Top conference, CCF-B)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="https://arxiv.org/pdf/2010.14794.pdf"
+			    								target="_blank">[PDF]</a> <a href="./papers/ICASSP2021-Kun.txt"
+			    								target="_blank">[BIB]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>Teacher-Student Training For Robust Tacotron-based TTS </b> <br>
+			    						<strong>Rui Liu</strong>, Berrak Sisman, Jingdong Li, Feilong Bao, Guanglai Gao, Haizhou
+			    						Li.<br>
+			    						<font color="#1B58B8">2020 IEEE International Conference on Acoustics, Speech and Signal
+			    							Processing (ICASSP'2020), Oral. <br>
+			    							<font color="red">(Top conference, CCF-B) (With Travel Grant)</font>
+			    						</font><br>
+			    						<font color="#1B58B8"><a href="papers/ICASSP2020.pdf">[PDF]</a> <a
+			    								href="./papers/ICASSP2020.txt" target="_blank">[BIB]</a> <a
+			    								href="https://ttslr.github.io/ICASSP2020/">[DEMO]</a> <a
+			    								href="https://youtu.be/D6gTTuiDdPU">[VIDEO]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>WaveTTS: Tacotron-based TTS with Joint Time-Frequency Domain Loss </b> <br>
+			    						<strong>Rui Liu</strong>, Berrak Sisman, Feilong Bao, Guanglai Gao, Haizhou Li.<br>
+			    						<font color="#1B58B8">The Speaker and Language Recognition Workshop 2020 (Odyssey'2020).
+			    						</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="papers/Odyssey2020.pdf">[PDF]</a> <a
+			    								href="./papers/Odyssey2020.txt" target="_blank">[BIB]</a> <a
+			    								href="https://ttslr.github.io/WaveTTS/">[DEMO]</a> <a href="xxx">[VIDEO]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>NUS-HLT System for Blizzard Challenge 2020 </b> <br>
+			    						Yi Zhou, Xiaohai Tian, Xuehao Zhou, Mingyang Zhang, Grandee Lee, <strong>Rui
+			    							Liu</strong>, Berrak Sisman, and Haizhou Li<br>
+			    						<font color="#1B58B8">Joint Workshop for the Blizzard Challenge and Voice Conversion
+			    							Challenge 2020 (BC'2020).</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="papers/BC2020.pdf">[PDF]</a> <a
+			    								href="./papers/BC2020.txt" target="_blank">[BIB]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>The IMU Speech Synthesis Entry for Blizzard Challenge 2019 </b> <br>
+			    						<strong>Rui Liu</strong>, Jingdong Li, Feilong Bao and Guanglai Gao.<br>
+			    						<font color="#1B58B8">Blizzard Challenge Workshop 2019 (BC'2019).</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="papers/BC2019.pdf">[PDF]</a> <a
+			    								href="./papers/BC2019.txt" target="_blank">[BIB]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>Improving Mongolian Phrase Break Prediction by Using Syllable and Morphological
+			    							Embeddings with BiLSTM Model </b> <br>
+			    						<strong>Rui Liu</strong>, Feilong Bao, Guanglai Gao, Hui Zhang and Yonghe Wang.<br>
+			    						<font color="#1B58B8">19th Annual Conference of the International Speech Communication
+			    							Association (INTERSPEECH'2018), Oral </font>
+			    						<br>
+			    						<font color="red">(Top conference, CCF-C)</font>
+			    						<br>
+			    						<font color="#1B58B8"><a
+			    								href="https://www.isca-speech.org/archive_v0/Interspeech_2018/abstracts/1706.html">[PDF]</a>
+			    							<a href="./papers/INTERSPEECH2018.txt" target="_blank">[BIB]</a>
+			    						</font>
+			    					</li>
+			    					<li>
+			    						<b>A LSTM Approach with Sub-word Embeddings for Mongolian Phrase Break Prediction </b>
+			    						<br>
+			    						<strong>Rui Liu</strong>, Feilong Bao, Guanglai Gao, Hui Zhang and Yonghe Wang.<br>
+			    						<font color="#1B58B8">27th International Conference on Computational Linguistics
+			    							(COLING'2018).</font>
+			    						<br>
+			    						<font color="red">(Top conference, CCF-B)</font><br>
+			    						<font color="#1B58B8"><a href="https://aclanthology.org/C18-1207/">[PDF]</a> <a
+			    								href="./papers/COLING2018.txt" target="_blank">[BIB]</a> </font>
+			    					</li>
+			    					<li>
+			    						<b>End-to-End Mongolian Text-to-Speech System </b> <br>
+			    						Jingdong Li, Hui Zhang, <strong>Rui Liu</strong>, Xueliang Zhang and Feilong Bao.<br>
+			    						<font color="#1B58B8">11th International Symposium on Chinese Spoken Language Processing
+			    							(ISCSLP'2018).</font><br>
+			    						<font color="#1B58B8"><a href="papers/ISCSLP2018.pdf">[PDF]</a> <a
+			    								href="./papers/ISCSLP2018.txt" target="_blank">[BIB]</a></font>
+			    					</li>
+			    					<li>
+			    						<b>Mongolian Text-to-Speech System Based on Deep Neural Network </b> <br>
+			    						<strong>Rui Liu</strong>, Feilong Bao, Guanglai Gao and Yonghe Wang.<br>
+			    						<font color="#1B58B8">14th National Conference on Man-Machine Speech Communication
+			    							(NCMMSC'2017), Oral.</font>
+			    						<br>
+			    						<font color="#1B58B8"><a href="papers/NCMMSC2017.pdf">[PDF]</a> <a
+			    								href="./papers/NCMMSC2017.txt" target="_blank">[BIB]</a> </font>
+			    					</li>
+			    				</ol>
+			    
+			    				<h2>Projects</h2>
+			    				<h3>Principal Investigator</h3>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						High-level Talents Introduction Project of Inner Mongolia University
+			    						<br> No. 10000-22311201/002
+			    						<br> 2022/05-2025/05
+			    					</li>
+			    					<li>
+			    						Young Scientists Fund of the National Natural Science Foundation of China (NSFC)
+			    						<br> No. 62206136
+			    						<br> 2023/01-2025/12
+			    					</li>
+			    				</ol>
+			    				<h3>Co-Principal Investigator</h3>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						......
+			    					</li>
+			    				</ol>
+			    
+			    
+			    				<h2>Talks</h2>
+			    				<ol class="paper-list" id="grants">
+			    					<li>
+			    						<b>Title: </b><u>Mongolian Text-to-Speech Technology</u> （蒙古语语音合成技术）. <br />[<a
+			    							href="./slides/多语种论坛-蒙古语TTS-v2.ppt" target="_blank">Slides</a>]
+			    						[<a href="https://mp.weixin.qq.com/s/tdyJ0dygEwysYmGrfBFbxA" target="_blank">Video</a>]
+			    						<br />
+			    						<b>Organizer:</b> Chinese Association for Artificial Intelligence （CAAI） <br />
+			    						<b>Date:</b> 20 Aug 2022
+			    					</li>
+			    					<li>
+			    						<b>Title: </b><u>Emotion Intensity Research of Speech Synthesis</u> (语音合成中的情感强度建模研究).
+			    						<br />[<a href="./slides/语音之家-情感强度建模-PPT.pdf" target="_blank">Slides</a>]
+			    						[<a href="https://appzxw56sw27444.h5.xiaoeknow.com/v2/course/alive/l_6281eb95e4b0cedf38b26577?app_id=appzxw56sw27444&pro_id=&type=2&available=true&share_user_id=u_6278bea47e200_rUccGC7f14&share_type=5&scene=%E5%88%86%E4%BA%AB&is_redirect=1&share_scene=1&entry=2&entry_type=2002"
+			    							target="_blank">Video</a>]
+			    						<br />
+			    						<b>Organizer:</b> SpeechHome （语音之家） <br />
+			    						<b>Date:</b> 19 May 2022
+			    					</li>
+			    					<li>
+			    						<b>Title: </b><u>Prosody and Emotion Modeling in End-to-End Speech Synthesis
+			    						</u>（端到端语音合成中的韵律、情感建模研究）. <br />[<a href="./slides/CCF专委会报告--语音合成韵律情感-刘瑞.pdf"
+			    							target="_blank">Slides</a>]
+			    						[<a href="https://mp.weixin.qq.com/s/O5ok2Uh0Sd639C5oqtRo8A"
+			    							target="_blank">Video</a>]<br />
+			    						<b>Organizer:</b> CCF Professional Committee of Speech Dialogue and Auditory Processing
+			    						<br />
+			    						<b>Date:</b> 04 Dec 2021
+			    					</li>
+			    				</ol>
+			    
+			    				<h2>Activities</h2>
+			    				<ol class="paper-list" id="grants">
+			    					<li><b>Conference Reviewer</b>:<br>
+			    						- INTERSPEECH 2021/2022<br>
+			    						- ICASSP 2021/2022<br>
+			    						- Joint Workshop for the Blizzard Challenge and Voice Conversion Challenge 2020<br>
+			    						- SLT 2022<br>
+			    						- O-COCOSDA 2022<br>
+			    					<li><b>Journal Reviewer</b>: <br>
+			    						- IEEE/ACM Transactions on Audio, Speech, and Language Processing (IEEE/ACM-TASLP) <br>
+			    						- IEEE Signal Processing Letters<br>
+			    						- IEEE Internet of Things Journal (IEEE-IoTJ)<br>
+			    					<li><b>Professional Service</b>:
+			    						<br>- Local Arrangement Co-chair, <a
+			    							href="http://www.colips.org/conferences/cocosda2021/wp/" target="_blank">O-COCOSDA
+			    							2021</a>, Singapore.
+			    						<br>- Local Arrangement Co-chair, <a
+			    							href="http://www.colips.org/conferences/iwsds2021/wp/" target="_blank">IWSDS
+			    							2021</a>, Singapore
+			    						<br>- Local Arrangement Co-chair, <a
+			    							href="http://www.colips.org/conferences/sigdial2021/wp/" target="_blank">SIGDIAL
+			    							2021</a>, Singapore
+			    						<br>- Student Volunteer, ASRU 2019 (IEEE Automatic Speech Recognition and Understanding
+			    						Workshop), Singapore
+			    						<br>- Student Volunteer, NLPCC 2018 (7th CCF International Conference on Natural
+			    						Language Processing and Chinese Computing), Hohhot, China.
+			    						<br>- Program Committee Member, O-COCOSDA 2022.
+			    				</ol>
+			    
+			    				<h2>Awards</h2>
+			    				<ol class="paper-list" id="grants">
+			    					<li>Dec 2021, Excellent Doctoral dissertation of Inner Mongolia Autonomous Region</li>
+			    					<li>Dec 2021, IALP-2021 <font color="red"><b>Best Paper</b></font>
+			    					</li>
+			    					<li>July 2021, <a href="https://www.acmturc.com/2021/en/doctoral_thesis_award.html"
+			    							target="_blank"> 2020 ACM China Doctoral Dissertation Award </a> (Hohhot Chapter),
+			    						ACM (Association for Computing Machinery) China Council </li>
+			    					<li>Sep 2020, Excellent Doctoral dissertation of Inner Mongolia University</li>
+			    					<li>Feb 2020, ICASSP IEEE SPS Travel Grant </li>
+			    					<li>Aug 2019, Research Scholarship of China Scholarship Council (CSC) </li>
+			    					<li>Oct 2018, National scholarship for Doctoral students (top 2% students), Ministry of
+			    						Education of P.R.China </li>
+			    					<li>Oct 2018, Academic scholarship of Inner Mongolia autonomous region </li>
+			    					<li>Oct 2017, National scholarship for Doctoral students (top 2% students), Ministry of
+			    						Education of P.R.China </li>
+			    					<li>Oct 2017, Academic scholarship of Inner Mongolia autonomous region </li>
+			    					<li>Oct 2016, Academic scholarship of Inner Mongolia autonomous region </li>
+			    					<li>Oct 2011, National Encouragement scholarship </li>
+			    				</ol>
+			    
+			    
+			    				<h2>Resource</h2>
+			    				<ol class="resource-list" id="usefullinks">
+			    					<li><a href="https://github.com/awesomedata/awesome-public-datasets" target="_blank">
+			    							Awesome-Public-Datasets</a></li>
+			    					<li><a href="https://www.aminer.cn/ranks/conf" target="_blank"> Aminer Ranking</a></li>
+			    					<li><a href="./resource/中国计算机学会推荐国际学术会议和期刊目录-2019.pdf" target="_blank"> CCF Ranking</a></li>
+			    					<li><a href="http://www.jdl.ac.cn/how_to_research/index1_1.htm#1" target="_blank"> How to do
+			    							research</a></li>
+			    					<li><a href="https://github.com/bighuang624/AI-research-tools"
+			    							target="_blank">AI-research-tools</a></li>
+			    					<li><a href="https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf" target="_blank">TH-CPL</a>
+			    					</li>
+			    					<li><a href="https://mp.weixin.qq.com/s/Hu_ozQG_uoYDLN0jQzUhDQ" target="_blank">CCF Journal
+			    							Ranking</a></li>
+			    					<li><a href="https://ccfddl.github.io/" target="_blank">CCF Deadlines</a></li>
+			    				</ol>
+			    				
+			    				<h2>More about Me</h2>
+			    			</section>
+			    			<footer class="page__meta"></footer>
+			    		</div>
+			    	</article>
+			    </div>
+				<script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5bbihrdqns5&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
 			</div>
 			
-			<!-- 硕士 -->
-			
-			<div class="block">
-				<span>Master Student</span>
-				 
-				<span>22级</span>
-				<div class="people_list" style="justify-content: flex-start;">
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/lb.jpg"/>
-						</div>
-						<span>Bin Liu <br/> (刘彬) '学硕<br/>[韵律预测]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/zjh.jpg"/>
-						</div>
-						<span>Jinhua Zhang <br/> (张锦华) '学硕<br/>[语音鉴伪]</span><br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 香港中文大学（深圳）联合指导)</b></span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/lh.jpg"/>
-						</div>
-						<span>Huan Liu <br/> (刘欢) '学硕<br/>[语音情感识别]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/xjt.jpg"/>
-						</div>
-						<span>Jiatian Xi <br/> (席嘉甜) '专硕<br/>[语音编辑]</span><br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 浙江大学 联合指导)</b></span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/mzn.jpg"/>
-						</div>
-						<span>Zening Ma <br/> (马泽宁) '专硕<br/>[自监督预训练模型]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/lkl.jpg"/>
-						</div>
-						<span>Kailin Liang <br/> (梁凯麟) '专硕<br/>[语音情感迁移]</span>
-					</div>
-					
-					 
-					
-				</div>
-				<span>23级</span>
-				<div class="people_list" style="justify-content: flex-start;">
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/gf.jpg"/>
-						</div>
-						<span>Pu Gao <br/> (高溥) '学硕<br/>[Speech Editing]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/zy.jpg"/>
-						</div>
-						<span>Yuan Zhao <br/> (赵源) '学硕<br/>[Video Dubbing]</span>
-					</div>
-				
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/wzy.jpg"/>
-						</div>
-						<span>Zhaoyang Wang <br/> (王召阳) '专硕<br/>[Talking Head Generation]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/xhh.jpg"/>
-						</div>
-						<span>Huhong Xian <br/> (鲜鹄鸿) '专硕<br/>[ADD]</span>
-					</div>
-					
-					
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/hsw.jpg"/>
-						</div>
-						<span>Shuwei He <br/> (何树伟) '专硕<br/>[Speech Synthesis]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/gsl.jpg"/>
-						</div>
-						<span>Shaoli Ge <br/> (戈绍丽) '专硕<br/>[SNN]</span><br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 上海交通大学 联合指导)</b></span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/jzq.jpg"/>
-						</div>
-						<span>Zhenqi Jia <br/> (贾真琦) '专硕<br/>[Speech]</span>
-					</div>
-					
-					<div class="people">
-						<div class="people_header">
-							<img src="assets/S2Group_members/yhy.jpg"/>
-						</div>
-						<span>Hongyu Yuan <br/> (袁宏宇) '专硕<br/>[LLM]</span><br/><br/><br/>
-						<span  style="color: #015293;"><b>(与 华南理工大学 联合指导)</b></span>
-					</div>
-					
-				</div>
-				
+			<div class="module" id="module2" style="display: none;">
+			    <div class="block">
+			    		<span>Principal Investigator</span>
+			    		<div class="people_list">
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/RuiLiu_1.jpg"/>
+			    				</div>
+			    				<span>Rui Liu <br/> (刘瑞)</span><br/> <br/>
+			    				<!-- <span><underline><a href="https://ttslr.github.io/index_ruiliu.html"  onclick="showModule(1)">Personal Homepage</a></underline></span> -->
+			    				<span><underline><a onclick="showModule(1)">Personal Homepage</a></underline></span>
+			    				<!-- <span>Rui Liu is a professor in Department of Computer Science at Inner Mongolia University of China, who is leading the S2LAB.</span> -->
+			    			</div>
+			    		</div>
+			    	</div>
+			    	
+			    	<!-- 博士 -->
+			    	<div class="block">
+			    		<span>PhD Student</span>
+			    		<span>19级</span>
+			    		<div class="people_list">
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/nmh.jpg"/>
+			    				</div>
+			    				<span>Muhan Na <br/>(娜木汗) '19<br/>[蒙古文自然语言处理]</span>
+			    				
+			    			</div>
+			    		</div>
+			    		<span>22级</span>
+			    		<div class="people_list">
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/zhl.jpg"/>
+			    				</div>
+			    				<span>Haolin Zuo <br/> (左昊麟) '22<br/>[多模态情感识别]</span> <br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 英国帝国理工、中科院自动化所、启元实验室 联合指导)</b></span>
+			    			</div>
+			    		</div>
+			    		<span>23级</span>
+			    		<div class="people_list">
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/hyf.jpg"/>
+			    				</div>
+			    				<span>Yifan Hu <br/> (胡一帆) '23<br/>[对话语音合成]</span><br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 新加坡字节跳动 联合指导)</b></span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/myx.jpg"/>
+			    				</div>
+			    				<span>Yuxuan Ma <br/> (麻宇轩) '23<br/>[多模态意图识别]</span>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	
+			    	<!-- 硕士 -->
+			    	
+			    	<div class="block">
+			    		<span>Master Student</span>
+			    		 
+			    		<span>22级</span>
+			    		<div class="people_list" style="justify-content: flex-start;">
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/lb.jpg"/>
+			    				</div>
+			    				<span>Bin Liu <br/> (刘彬) '学硕<br/>[韵律预测]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/zjh.jpg"/>
+			    				</div>
+			    				<span>Jinhua Zhang <br/> (张锦华) '学硕<br/>[语音鉴伪]</span><br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 香港中文大学（深圳）联合指导)</b></span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/lh.jpg"/>
+			    				</div>
+			    				<span>Huan Liu <br/> (刘欢) '学硕<br/>[语音情感识别]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/xjt.jpg"/>
+			    				</div>
+			    				<span>Jiatian Xi <br/> (席嘉甜) '专硕<br/>[语音编辑]</span><br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 浙江大学 联合指导)</b></span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/mzn.jpg"/>
+			    				</div>
+			    				<span>Zening Ma <br/> (马泽宁) '专硕<br/>[自监督预训练模型]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/lkl.jpg"/>
+			    				</div>
+			    				<span>Kailin Liang <br/> (梁凯麟) '专硕<br/>[语音情感迁移]</span>
+			    			</div>
+			    			
+			    			 
+			    			
+			    		</div>
+			    		<span>23级</span>
+			    		<div class="people_list" style="justify-content: flex-start;">
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/gf.jpg"/>
+			    				</div>
+			    				<span>Pu Gao <br/> (高溥) '学硕<br/>[Speech Editing]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/zy.jpg"/>
+			    				</div>
+			    				<span>Yuan Zhao <br/> (赵源) '学硕<br/>[Video Dubbing]</span>
+			    			</div>
+			    		
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/wzy.jpg"/>
+			    				</div>
+			    				<span>Zhaoyang Wang <br/> (王召阳) '专硕<br/>[Talking Head Generation]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/xhh.jpg"/>
+			    				</div>
+			    				<span>Huhong Xian <br/> (鲜鹄鸿) '专硕<br/>[ADD]</span>
+			    			</div>
+			    			
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/hsw.jpg"/>
+			    				</div>
+			    				<span>Shuwei He <br/> (何树伟) '专硕<br/>[Speech Synthesis]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/gsl.jpg"/>
+			    				</div>
+			    				<span>Shaoli Ge <br/> (戈绍丽) '专硕<br/>[SNN]</span><br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 上海交通大学 联合指导)</b></span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/jzq.jpg"/>
+			    				</div>
+			    				<span>Zhenqi Jia <br/> (贾真琦) '专硕<br/>[Speech]</span>
+			    			</div>
+			    			
+			    			<div class="people">
+			    				<div class="people_header">
+			    					<img src="assets/S2Group_members/yhy.jpg"/>
+			    				</div>
+			    				<span>Hongyu Yuan <br/> (袁宏宇) '专硕<br/>[LLM]</span><br/><br/><br/>
+			    				<span  style="color: #015293;"><b>(与 华南理工大学 联合指导)</b></span>
+			    			</div>
+			    			
+			    		</div>
+			    		
+			    	</div>
+			    	
+			    	<!-- 校友 -->
+			    	<!-- <div class="block">
+			    		<span>Alumni</span>
+			    		<div class="people_list">
+			    		</div>
+			    	</div> -->
+			    	
 			</div>
 			
-			<!-- 校友 -->
-			<!-- <div class="block">
-				<span>Alumni</span>
-				<div class="people_list">
-				</div>
-			</div> -->
-			
+			<div class="module" id="module3" style="display: none;">
+				<div class="block" style="text-align: center;">暂未更新</div>
+			</div>
 		</main>
-		
 		<footer class="pc_footer">
 			<div class="element">
 				<i class="fa fa-envelope-open-o" aria-hidden="true" /></i>
@@ -260,6 +1037,66 @@
 				<span>Hohhot, China</span>
 			</div>
 		</footer>
+		<script src="./js/main.min.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function() {
+						(i[r].q = i[r].q || []).push(arguments)
+					},
+					i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+			ga('create', '', 'auto');
+			ga('send', 'pageview');
+			
 		
+			
+			// 为第一个module 增加 加粗效果
+			document.addEventListener('DOMContentLoaded', function() {
+			    // 获取第一个菜单项元素
+			    var firstMenuItem = document.querySelector('.masthead__menu-item');
+			
+			    // 为第一个菜单项添加 masthead__menu-item--lg 类
+			    if (firstMenuItem) {
+			        firstMenuItem.classList.add('masthead__menu-item--lg');
+			    }
+			});
+		
+			
+		
+			function showModule(moduleNumber) {
+			    // 获取所有模块元素
+			    var modules = document.querySelectorAll('.module');
+			
+			    // 隐藏所有模块
+			    modules.forEach(function(module) {
+			        module.style.display = 'none';
+			    });
+			
+			    // 显示指定模块
+			    var targetModule = document.getElementById('module' + moduleNumber);
+			    if (targetModule) {
+			        targetModule.style.display = 'block';
+			    }
+			
+			    // 清除所有菜单项的活动状态
+			    var menuItems = document.querySelectorAll('.masthead__menu-item');
+			    menuItems.forEach(function(item) {
+			        item.classList.remove('masthead__menu-item--lg');
+			    });
+			
+			    // 将点击的 li 元素添加 masthead__menu-item--lg 类
+			    var targetMenuItem = document.querySelector('.masthead__menu-item:nth-child(' + moduleNumber + ')');
+			    if (targetMenuItem) {
+			        targetMenuItem.classList.add('masthead__menu-item--lg');
+			    }
+			}
+		
+		</script>
 	</body>
 </html>
