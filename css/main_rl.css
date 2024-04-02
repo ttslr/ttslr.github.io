@@ -52,7 +52,7 @@ audio:not([controls]) {
 }
 
 a {
-    color: #52adc8
+    /* color: #52adc8 */
 }
 
 a:hover,a:active {
