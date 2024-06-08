@@ -14,8 +14,9 @@
 	}
 	.block{
 		width: calc(100% - 9rem);
-		margin: 3rem auto;
-		margin-left: 3rem;
+		/* margin: 3rem auto;
+		margin-left: 3rem; */
+		margin: 0rem auto;
 		font-size: 20px;
 		position: relative;
 	}
@@ -82,6 +83,48 @@
 		background-color: antiquewhite;
 	}
 	
+	.block .collaborators-list {
+		/* margin: 0rem 0rem; */
+		/* margin-left: 1rem; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+		/* margin: 0, auto; */
+	}
+	
+	.block .collaborator {
+	    display: flex;
+	    align-items: center;
+	    margin: 30px 0 0 0;
+	    width: 100%;
+	    /* border: 1px solid #ddd; */
+	    padding: 20px 10px;
+	    border-radius: 10px;
+	    background-color: #f9f9f9;
+	}
+	
+	.block .collaborator-image {
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50%;
+	    margin-right: 20px;
+	    object-fit: cover;
+	}
+	
+	.block .collaborator-info {
+	    flex: 1;
+	}
+	
+	.block .collaborator-info h2 {
+	    margin: 0;
+	    font-size: 1.5em;
+	}
+	
+	.block .collaborator-info p {
+	    margin: 5px 0 0;
+	}
+	
 }
 
 
@@ -102,7 +145,8 @@
 	}
 	.block{
 		width: calc(100%);
-		margin: 3rem auto;
+		/* margin: 3rem auto; */
+		margin: 0rem auto;
 		font-size: 20px;
 		position: relative;
 	}
@@ -168,6 +212,48 @@
 		width: 100%;
 		min-height: 1rem;
 		background-color: antiquewhite;
+	}
+	
+	
+	.block .collaborators-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+	}
+	
+	.block .collaborator {
+	    display: flex;
+	    align-items: center;
+	    margin: 20px 0;
+	    width: 90%;
+	    /* border: 1px solid #ddd; */
+	    padding: 10px;
+	    border-radius: 10px;
+	    background-color: #f9f9f9;
+		font-size: 0.9rem;
+		padding: 20px 10px;
+	}
+	
+	.block .collaborator-image {
+	    width: 0px;
+	    height: 0px;
+	    border-radius: 50%;
+		margin-right: 20px;
+	    object-fit: cover;
+	}
+	
+	.block .collaborator-info {
+	    flex: 1;
+	}
+	
+	.block .collaborator-info h2 {
+	    margin: 0;
+	    font-size: 1.5em;
+	}
+	
+	.block .collaborator-info p {
+	    margin: 5px 0 0;
 	}
 	
 }
