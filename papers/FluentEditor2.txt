@@ -1,0 +1,10 @@
+@ARTICLE{11214707,
+  author={Liu, Rui and Xi, Jiatian and Jiang, Ziyue and Li, Haizhou},
+  journal={IEEE Transactions on Audio, Speech and Language Processing}, 
+  title={FluentEditor2: Text-Based Speech Editing by Modeling Multi-Scale Acoustic and Prosody Consistency}, 
+  year={2025},
+  volume={33},
+  number={},
+  pages={4500-4514},
+  keywords={Acoustics;Speech processing;Training;Contrastive learning;Electronic mail;Diffusion models;Costs;Technological innovation;Speech recognition;Linguistics;Speech editing;speech fluency;multi-scale;acoustic and prosody consistency},
+  doi={10.1109/TASLPRO.2025.3624913}}
